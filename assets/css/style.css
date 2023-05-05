@@ -984,6 +984,15 @@ section {
   margin-bottom: 0;
 }
 
+.services .icon-box ul {
+  padding: 0;
+}
+
+.services .icon-box li {
+  list-style: none;
+  text-align: center;
+}
+
 .services .icon-box:hover {
   background: #1977cc;
   border-color: #1977cc;
