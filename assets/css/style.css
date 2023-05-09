@@ -15,12 +15,12 @@ body {
 }
 
 a {
-  color: #1977cc;
+  color: #71d9a6;
   text-decoration: none;
 }
 
 a:hover {
-  color: #3291e6;
+  color: #55ac82;
   text-decoration: none;
 }
 
@@ -52,7 +52,7 @@ h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #1977cc;
+  border: 6px solid #71d9a6;
   border-top-color: #d1e6f9;
   border-radius: 50%;
   width: 60px;
@@ -80,7 +80,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #1977cc;
+  background: #71d9a6;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -94,7 +94,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #298ce5;
+  background: #55ac82;
   color: #fff;
 }
 
@@ -129,11 +129,11 @@ h6 {
 }
 
 #topbar .contact-info a:hover {
-  color: #1977cc;
+  color: #71d9a6;
 }
 
 #topbar .contact-info i {
-  color: #1977cc;
+  color: #71d9a6;
   padding-right: 4px;
   margin-left: 15px;
   line-height: 0;
@@ -144,7 +144,7 @@ h6 {
 }
 
 #topbar .social-links a {
-  color: #437099;
+  color: #b4914c;
   padding-left: 15px;
   display: inline-block;
   line-height: 1px;
@@ -152,7 +152,7 @@ h6 {
 }
 
 #topbar .social-links a:hover {
-  color: #1977cc;
+  color: #71d9a6;
 }
 
 #topbar .social-links a:first-child {
@@ -198,7 +198,7 @@ h6 {
 */
 .appointment-btn {
   margin-left: 25px;
-  background: #1977cc;
+  background: #71d9a6;
   color: #fff;
   border-radius: 50px;
   padding: 8px 25px;
@@ -209,7 +209,7 @@ h6 {
 }
 
 .appointment-btn:hover {
-  background: #166ab5;
+  background: #55ac82;
   color: #fff;
 }
 
@@ -272,8 +272,8 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover > a {
-  color: #1977cc;
-  border-color: #1977cc;
+  color: #71d9a6;
+  border-color: #71d9a6;
 }
 
 .navbar .dropdown ul {
@@ -311,7 +311,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover > a {
-  color: #1977cc;
+  color: #71d9a6;
 }
 
 .navbar .dropdown:hover > ul {
@@ -415,7 +415,7 @@ h6 {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover > a {
-  color: #1977cc;
+  color: #71d9a6;
 }
 
 .navbar-mobile .getstarted,
@@ -450,7 +450,7 @@ h6 {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover > a {
-  color: #1977cc;
+  color: #71d9a6;
 }
 
 .navbar-mobile .dropdown > .dropdown-active {
@@ -499,11 +499,11 @@ h6 {
   border-radius: 50px;
   transition: 0.5s;
   color: #fff;
-  background: #1977cc;
+  background: #71d9a6;
 }
 
 #hero .btn-get-started:hover {
-  background: #3291e6;
+  background: #55ac82;
 }
 
 @media (min-width: 1024px) {
@@ -583,7 +583,7 @@ section {
   display: block;
   width: 40px;
   height: 3px;
-  background: #1977cc;
+  background: #71d9a6;
   bottom: 0;
   left: calc(50% - 20px);
 }
@@ -659,7 +659,7 @@ section {
 --------------------------------------------------------------*/
 .why-us .content {
   padding: 30px;
-  background: #1977cc;
+  background: #71d9a6;
   border-radius: 4px;
   color: #fff;
 }
@@ -697,7 +697,7 @@ section {
 }
 
 .why-us .content .more-btn:hover {
-  color: #1977cc;
+  color: #71d9a6;
   background: #fff;
 }
 
@@ -712,7 +712,7 @@ section {
 
 .why-us .icon-boxes .icon-box i {
   font-size: 40px;
-  color: #1977cc;
+  color: #71d9a6;
   margin-bottom: 30px;
 }
 
@@ -760,13 +760,13 @@ section {
 }
 
 .about .icon-box .icon i {
-  color: #1977cc;
+  color: #71d9a6;
   font-size: 32px;
 }
 
 .about .icon-box:hover .icon {
-  background: #1977cc;
-  border-color: #1977cc;
+  background: #71d9a6;
+  border-color: #71d9a6;
 }
 
 .about .icon-box:hover .icon i {
@@ -786,7 +786,7 @@ section {
 }
 
 .about .icon-box .title a:hover {
-  color: #1977cc;
+  color: #71d9a6;
 }
 
 .about .icon-box .description {
@@ -804,7 +804,7 @@ section {
 .about .play-btn {
   width: 94px;
   height: 94px;
-  background: radial-gradient(#1977cc 50%, rgba(25, 119, 204, 0.4) 52%);
+  background: radial-gradient(#71d9a6 50%, rgba(25, 119, 204, 0.4) 52%);
   border-radius: 50%;
   display: block;
   position: absolute;
@@ -847,7 +847,7 @@ section {
 }
 
 .about .play-btn:hover::after {
-  border-left: 15px solid #1977cc;
+  border-left: 15px solid #71d9a6;
   transform: scale(20);
 }
 
@@ -894,7 +894,7 @@ section {
   margin: 0 auto;
   width: 64px;
   height: 64px;
-  background: #1977cc;
+  background: #71d9a6;
   border-radius: 5px;
   transition: all 0.3s ease-out 0s;
   display: flex;
@@ -950,8 +950,8 @@ section {
 }
 
 .services .icon-box:hover {
-  background: #1977cc;
-  border-color: #1977cc;
+  background: #71d9a6;
+  border-color: #71d9a6;
 }
 
 .services .icon-box:hover .icon {
@@ -959,11 +959,11 @@ section {
 }
 
 .services .icon-box:hover .icon i {
-  color: #1977cc;
+  color: #71d9a6;
 }
 
 .services .icon-box:hover .icon::before {
-  background: #3291e6;
+  background: #55ac82;
 }
 
 .services .icon-box:hover h4 a,
@@ -1043,7 +1043,7 @@ section {
 .appointment .php-email-form input:focus,
 .appointment .php-email-form textarea:focus,
 .appointment .php-email-form select:focus {
-  border-color: #1977cc;
+  border-color: #71d9a6;
 }
 
 .appointment .php-email-form input,
@@ -1056,7 +1056,7 @@ section {
 }
 
 .appointment .php-email-form button[type='submit'] {
-  background: #1977cc;
+  background: #71d9a6;
   border: 0;
   padding: 10px 35px;
   color: #fff;
@@ -1156,7 +1156,7 @@ section {
 }
 
 .doctors .member .social a:hover {
-  background: #1977cc;
+  background: #71d9a6;
 }
 
 .doctors .member .social a + a {
@@ -1228,7 +1228,7 @@ section {
 }
 
 .faq .faq-list a.collapsed:hover {
-  color: #1977cc;
+  color: #71d9a6;
 }
 
 .faq .faq-list a.collapsed .icon-show {
@@ -1322,11 +1322,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #1977cc;
+  border: 1px solid #71d9a6;
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #1977cc;
+  background-color: #71d9a6;
 }
 
 @media (max-width: 767px) {
@@ -1360,7 +1360,7 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #1977cc;
+  color: #71d9a6;
   float: left;
   width: 44px;
   height: 44px;
@@ -1395,7 +1395,7 @@ section {
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-  background: #1977cc;
+  background: #71d9a6;
   color: #fff;
 }
 
@@ -1465,7 +1465,7 @@ section {
 }
 
 .contact .php-email-form button[type='submit'] {
-  background: #1977cc;
+  background: #71d9a6;
   border: 0;
   padding: 10px 35px;
   color: #fff;
@@ -1566,7 +1566,7 @@ section {
 
 #footer .footer-top .footer-links ul a:hover {
   text-decoration: none;
-  color: #1977cc;
+  color: #71d9a6;
 }
 
 #footer .footer-newsletter {
@@ -1606,7 +1606,7 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #1977cc;
+  background: #71d9a6;
   color: #fff;
   transition: 0.3s;
   border-radius: 50px;
@@ -1625,7 +1625,7 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #1977cc;
+  background: #71d9a6;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
