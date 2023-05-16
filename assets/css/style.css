@@ -950,7 +950,7 @@ section {
 
 .services .icon-box li {
   list-style: none;
-  text-align: center;
+  text-align: left;
   padding: 7px 0;
   font-size: 14px;
 }
@@ -1366,7 +1366,7 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #e5cfcf;
+  color: #fff;
   float: left;
   width: 44px;
   height: 44px;
@@ -1665,4 +1665,8 @@ section {
 
 .whatsapp-icon {
   margin-top: 13px;
+}
+
+.text-justify {
+  text-align: justify;
 }
