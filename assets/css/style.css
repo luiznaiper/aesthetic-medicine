@@ -1670,3 +1670,29 @@ section {
 .text-justify {
   text-align: justify;
 }
+
+#doctora p {
+  font-size: 2rem;
+}
+
+#doctora h4 {
+  color: #a6608a;
+  font-weight: bold;
+}
+
+#doctora .video-box {
+  background: url('../img/dra-alejandra-luna.jpeg');
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 768px) {
+  #doctora .row {
+    padding: 4rem;
+  }
+}
+
+.img-experience img {
+  width: 10rem;
+}
