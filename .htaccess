@@ -1,2 +1,7 @@
-RewriteCond %{HTTP_HOST} ^doctoraluna.com [NC]
-RewriteRule ^(.*)$ https://www.doctoraluna.com/$1 [L,R=301]
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+
+    RewriteCond %{HTTP_HOST} ^doctoraluna\.com [NC]
+    RewriteRule ^(.*)$ https://www.doctoraluna.com/$1 [L,R=301]
+</IfModule>
