@@ -240,7 +240,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const items = document.querySelectorAll('.gallery .col-lg-3.col-md-4') // Aquí seleccionamos los divs que tienen las categorías
 
     items.forEach((item) => {
-      if (filter === '*' || item.classList.contains(filter)) {
+      if (filter === 'all' || item.classList.contains(filter)) {
         item.style.display = '' // Restablecemos el display para mostrarlo
       } else {
         item.style.display = 'none' // Ocultamos el div si no coincide con el filtro
@@ -254,10 +254,16 @@ document.addEventListener('DOMContentLoaded', function () {
     btn.addEventListener('click', function () {
       let filterValue = this.getAttribute('data-filter').slice(1) // slice(1) para eliminar el "."
 
-      // Si el valor es vacío (lo que significa que era "*"), lo reseteamos a "*"
-      if (!filterValue) {
-        filterValue = '*'
-      }
+      // Verificación para el botón "Todo"
+      if (filterValue === '') filterValue = 'all'
+
+      // Remove 'active' class from all buttons
+      filterButtons.forEach((button) => {
+        button.classList.remove('active')
+      })
+
+      // Add 'active' class to the clicked button
+      this.classList.add('active')
 
       filterGallery(filterValue)
     })
